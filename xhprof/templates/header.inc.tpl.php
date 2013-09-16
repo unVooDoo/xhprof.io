@@ -5,7 +5,8 @@ $navigation	= array
 (
 	array('url' => url('hosts'), 'name' => 'Hosts', 'class' => $template['file'] == 'hosts' ? 'template active' : 'template'),
 	array('url' => url('uris'), 'name' => 'URIs', 'class' => $template['file'] == 'uris' ? 'template active' : 'template'),
-	array('url' => url('requests'), 'name' => 'Requests', 'class' => $template['file'] == 'requests' || $template['file'] == 'request' ? 'template active' : 'template')
+	array('url' => url('requests'), 'name' => 'Requests', 'class' => $template['file'] == 'requests' || $template['file'] == 'request' ? 'template active' : 'template'),
+	array('url' => url('upload'), 'name' => 'Upload', 'class' => $template['file'] == 'upload' ? 'template active' : 'template')
 );
 ?>
 <div id="navigation">

@@ -12,7 +12,7 @@ $template			= array
 	'title'			=> NULL
 );
 
-$templates			= array('requests', 'request', 'uris', 'hosts', 'function');
+$templates			= array('requests', 'request', 'uris', 'hosts', 'function', 'upload');
 
 if(empty($_GET['xhprof']['template']))
 {
