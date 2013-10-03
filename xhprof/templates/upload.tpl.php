@@ -17,6 +17,6 @@ if (isset($_FILES['userfile'])){
         <br/>
         <button type='submit'>Upload</button>
         <br/>
-        <?php if (isset($rowNumber)):?>Inserted as Row #<?php endif;?>
+        <?php if (isset($rowNumber)):?>Inserted as Row #<?php echo $rowNumber?><?php endif;?>
     </form>
 </div>
